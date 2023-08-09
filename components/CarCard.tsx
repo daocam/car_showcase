@@ -8,7 +8,7 @@ import { useState } from "react";
 import CarDetails from "./CarDetails";
 
 interface CarCardProps {
-  car: CarProps;
+  car: CarProps
 }
 const CarCard = ({ car }: CarCardProps) => {
   const { city_mpg, drive, make, model, transmission, year } = car
